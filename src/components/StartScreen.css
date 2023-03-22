@@ -6,3 +6,14 @@ p {
     margin-bottom: 2em;
     color: rgba(47, 241, 255, 0.925);
 }
+.piscar {
+    animation: effect 0.3s linear infinite;
+}
+@keyframes effect {
+    50% {
+        color: #fff;
+    }
+    50% {
+        color: greenyellow;
+    }
+}
